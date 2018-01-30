@@ -1,6 +1,8 @@
 /**
  *
- * @author vetter
+ * @author Andrew Vetter
+ * @version 01/30/18
+ * INterface that defines methods for Scores 
  */
 public interface Bag {
     
