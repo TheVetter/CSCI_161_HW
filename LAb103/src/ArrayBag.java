@@ -1,10 +1,9 @@
 import java.util.Random; 
 /**
- *
- * @author Andrew Vetter
- * @verson 01/30/18
  * The scores class implements the bag class. 
  * it's a simple class that handles like the Array class
+ * @author Andrew Vetter
+ * @verson 01/30/18
  */
 public class ArrayBag<E> implements Bag<E>{
 

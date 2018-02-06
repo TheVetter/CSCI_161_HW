@@ -1,7 +1,7 @@
 import java.util.Random;
 
 /**
- * 
+ * A bag of generic items that are organized in a singly linked list
  * @author Andrew vetter
  * @version 2/4/18
  */
@@ -156,6 +156,7 @@ public class LinkedBag<E> implements Bag{
         return value;
     }
     
+    @Override
     public boolean equals(Object o){
         //make sure it's a linked bag 
         if (!(o instanceof LinkedBag)){

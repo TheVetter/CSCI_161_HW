@@ -1,5 +1,5 @@
 /**
- *Interface that defines methods for a doubly link list
+ *Interface that defines methods for a bag of random items.
  * 
  * @author Andrew Vetter
  * @version 01/30/18

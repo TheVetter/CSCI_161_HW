@@ -90,7 +90,7 @@ public class Client {
     
     
      /***
-     * 
+     * get a array bag team entered from the keyboard
      * @param team
      */
     public static void keyboardInput(ArrayBag team){
@@ -132,7 +132,7 @@ public class Client {
     }
     
     /**
-     * 
+     * returns an ArrayBag populated for testing
      * @return 
      */
     public static ArrayBag testData(){
@@ -150,7 +150,7 @@ public class Client {
     }
     
     /**
-     * 
+     * returns a Linked bag populated for testing
      * @return 
      */
     public static LinkedBag testDataLinked(){
@@ -168,7 +168,7 @@ public class Client {
     }
     
      /**
-     * 
+     * returns a linked bag from user defined input 
      * @return linked bag of all the players entered 
      */
     public static LinkedBag keyboardInputLinked(){
