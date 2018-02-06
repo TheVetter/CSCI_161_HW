@@ -120,8 +120,6 @@ public class Scores implements Bag{
      */
     @Override
     public void clear() {
-        
-        this.list = null; 
         this.count = 0;
     }
     /***
