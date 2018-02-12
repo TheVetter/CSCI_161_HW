@@ -113,7 +113,7 @@ public class Recurssive_Client {
                 + "C) to run the list method\n"
                 + "D) to exit program";
         
-        response = JOptionPane.showInputDialog( null, optionString, "My Title", 0 );        
+        response = JOptionPane.showInputDialog( null, optionString, "Recurssive Class", 0 );        
         
         switch ( response ) 
         {
@@ -171,7 +171,13 @@ public class Recurssive_Client {
         //read from file and throw into an array. 
         ArrayBag bag = new ArrayBag();
         while(in.hasNext()){
-            bag.add(in.nextInt());
+            //check if int
+            if(in.hasNextInt()){
+                bag.add(in.nextInt());
+            }
+            else{
+                in.next();
+            }
         }
         
         //convert bag to array 
