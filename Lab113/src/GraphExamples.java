@@ -39,6 +39,9 @@ public class GraphExamples {
    * An edge can be specified as { "SFO", "LAX" }, in which case edge is created
    * with default edge value of 1, or as { "SFO", "LAX", "337" }, in which case
    * the third entry should be a string that will be converted to an integral value.
+     * @param edges
+     * @param directed
+     * @return 
    */
   public static Graph<String,Integer> graphFromEdgelist(String[][] edges, boolean directed) {
     Graph<String,Integer> g = new AdjacencyMapGraph<>(directed);
@@ -152,6 +155,7 @@ public class GraphExamples {
     return graphFromEdgelist(edges, false);
   }
 
+//  public static void 
 
   public static void main(String[] args) {
     System.out.println("Figure 14.3");
@@ -174,6 +178,9 @@ public class GraphExamples {
 
     System.out.println("Figure 14.15");
     System.out.println(figure14_15());
+    
+    System.out.println("adjecenty matrix");
+    
   }
 
 }
